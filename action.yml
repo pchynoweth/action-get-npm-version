@@ -1,13 +1,13 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Gte npm version action'
+description: 'Extracts the version string from the package.json file'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'World'
+  file:
+    description: 'package.json file'
+    required: false
+    default: 'package.json'
 outputs:
-  time: # id of output
-    description: 'The time we we greeted you'
+  version:
+    description: 'The version string from the package.json file'
 runs:
   using: 'node12'
   main: 'index.js'
