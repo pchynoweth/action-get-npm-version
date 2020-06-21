@@ -1,4 +1,4 @@
-name: 'Gte npm version action'
+name: 'Get npm version action'
 description: 'Extracts the version string from the package.json file'
 inputs:
   file:
@@ -11,3 +11,6 @@ outputs:
 runs:
   using: 'node12'
   main: 'index.js'
+branding:
+  icon: activity
+  color: gray-dark
