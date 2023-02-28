@@ -9,7 +9,7 @@ outputs:
   version:
     description: 'The version string from the package.json file'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
 branding:
   icon: activity
