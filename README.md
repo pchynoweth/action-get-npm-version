@@ -17,5 +17,5 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: action-get-npm-version@master
+uses: action-get-npm-version@1.1.0
 ```
